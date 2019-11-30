@@ -16,3 +16,4 @@ function seriesSum(n) {
     return (base += (top / num)).toFixed(2)
 }
 
+// BETTER 0 NOTATION
