@@ -14,5 +14,5 @@ function seriesSum(n) {
         num += 3
     }
     return (base += (top / num)).toFixed(2)
-
 }
+
