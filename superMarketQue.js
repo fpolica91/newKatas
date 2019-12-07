@@ -12,3 +12,5 @@ const queueTime = (customers, registers) => {
     }
     return resultsArr[resultsArr.length - 1]
 }
+
+queueTime([1,3,4,5],2)
