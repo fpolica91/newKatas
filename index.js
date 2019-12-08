@@ -1,39 +1,3 @@
-// flattening arrays
-
-let array = [[1, 2], 3, [4, 5],{name:"jose"} , [{age: 25}]];
-
-const flatteningWithReduce =(arr, depth, currentDepth =0) =>{
-  if(currentDepth === depth){
-    return array
-  }
-  return arr.reduce((acc,item) =>{
-    return acc.concat(
-      Array.isArray(item) ? flatteningWithReduce(item, depth, currentDepth+1): item
-    )
-  },[])
-}
-
-
-
-flatteningWithReduce(array,2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
