@@ -5,3 +5,6 @@ const factorial = (num) =>{
 }
 
 factorial(3)
+
+// a factorial is expressed the following way
+// n! example 5! = 5 * 4 * 3* 2 * 1 
